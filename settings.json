@@ -1,0 +1,71 @@
+{
+  "workbench.colorTheme": "Andromeda",
+  "workbench.iconTheme": "material-icon-theme",
+  "eslint.alwaysShowStatus": false,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+
+  // Colors
+  "workbench.colorCustomizations": {
+    "editorLineNumber.activeForeground": "#fff",
+    "editorLineNumber.foreground": "#444",
+    "editorCursor.foreground": "#F7CA18",
+    "terminalCursor.foreground": "#F7CA18"
+  },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.formatOnSave": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "liveSassCompile.settings.showOutputWindow": false,
+  "explorer.confirmDelete": false,
+  "prettier.arrowParens": "avoid",
+  "prettier.useTabs": false,
+  "vetur.format.options.tabSize": 4,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": false,
+  "workbench.statusBar.visible": false,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "expand",
+  "editor.lineNumbers": "on",
+  "editor.cursorWidth": 3,
+  "prettier.printWidth": 80,
+  "editor.parameterHints.enabled": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "explorer.confirmDragAndDrop": false,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Exclude folders
+  "search.exclude": {
+    "**/dist": true,
+    "**/.history": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sass-cache": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.sass-cache": true,
+    "**/public/blog": true,
+    "**/.history": true,
+    "**/tmp": true,
+    "**/.cache": true,
+    "**/node_modules": true,
+    "**/.vscode": true,
+    ".idea/": true
+  },
+
+  // Live server
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "workbench.activityBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": -1
+}
