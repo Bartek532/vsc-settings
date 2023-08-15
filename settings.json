@@ -1,10 +1,9 @@
 {
   "workbench.colorTheme": "Andromeda",
   "workbench.iconTheme": "material-icon-theme",
-  "eslint.alwaysShowStatus": false,
   "eslint.format.enable": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": false
+    "source.fixAll.eslint": true
   },
 
   // Colors
@@ -19,12 +18,10 @@
   "eslint.validate": ["javascript", "typescript"],
   "editor.formatOnSave": true,
   "liveServer.settings.CustomBrowser": "chrome",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "liveSassCompile.settings.showOutputWindow": false,
   "explorer.confirmDelete": false,
   "prettier.arrowParens": "avoid",
   "prettier.useTabs": false,
-  "vetur.format.options.tabSize": 4,
   "prettier.tabWidth": 2,
   "prettier.singleQuote": false,
   "workbench.statusBar.visible": false,
@@ -36,7 +33,6 @@
   "editor.parameterHints.enabled": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "explorer.confirmDragAndDrop": false,
-  "tabnine.experimentalAutoImports": true,
   "workbench.startupEditor": "none",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -56,16 +52,35 @@
     "**/.history": true,
     "**/tmp": true,
     "**/.cache": true,
-    "**/node_modules": true,
     "**/.vscode": true,
     ".idea/": true
   },
 
-  // Live server
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-
-  "workbench.activityBar.visible": false,
+  //"workbench.activityBar.visible": false,
   "workbench.sideBar.location": "right",
-  "window.zoomLevel": -1
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+  },
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "gitlens.rebaseEditor.ordering": "asc",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.inlineSuggest.enabled": true,
+  "window.zoomLevel": 1,
+
+  "newFile.defaultBaseFileName": "newFile",
+  "newFile.relativeTo": "file",
+  "newFile.defaultFileExtension": ".ts",
+  "newFile.rootDirectory": "~",
+  "newFile.showPathRelativeTo": "root",
+  "newFile.expandBraces": false
 }
