@@ -3,7 +3,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "eslint.format.enable": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
 
   // Colors
@@ -52,7 +52,7 @@
     "**/.history": true,
     "**/tmp": true,
     "**/.cache": true,
-    "**/.vscode": true,
+    // "**/.vscode": true,
     ".idea/": true
   },
 
@@ -75,12 +75,19 @@
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.inlineSuggest.enabled": true,
-  "window.zoomLevel": 1,
 
   "newFile.defaultBaseFileName": "newFile",
   "newFile.relativeTo": "file",
   "newFile.defaultFileExtension": ".ts",
   "newFile.rootDirectory": "~",
   "newFile.showPathRelativeTo": "root",
-  "newFile.expandBraces": false
+  "newFile.expandBraces": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "nxConsole.showNodeVersionOnStartup": false,
+  "console-ninja.featureSet": "Community",
+  "kotlin.languageServer.enabled": false,
+  "kotlin.debugAdapter.enabled": false,
+  "window.zoomLevel": 0.5,
+  "editor.stickyScroll.enabled": false
 }
